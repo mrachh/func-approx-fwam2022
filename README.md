@@ -8,7 +8,7 @@ To download this repository including submodules (chebfun and baobzi)  run
 Run startup.m to include chebfun in the MATLAB path
 
 To install baobzi on a linux machine, follow instructions on the
-baobzi[https://github.com/flatironinstitute/baobzi.git]. Baobzi depends
+[baobzi github page](https://github.com/flatironinstitute/baobzi.git). Baobzi depends
 on gcc, and cmake.
 
 To install baobzi on a mac, follow the same instructions. Additionally
