@@ -3,7 +3,7 @@ dim = 1;
 order = 6;
 
 rho = 10;
-nu = 0.7;
+nu = 3.8;
 
 dmax = rho/sqrt(2*nu)*log(1.0/eps);
 
@@ -16,9 +16,9 @@ split_multi_eval = 1;
 
 func_approx = baobzi('new', 'matern_fun', dim, order, center, hl, tol, minimum_leaf_fraction, split_multi_eval);
 display(func_approx.eval([0.1]))
-func_approx.save('matern_rho10_nu0.7.baobzi');
+func_approx.save('matern_rho10_nu3.8.baobzi');
 clear func_approx;
-func_approx = baobzi('restore', 'matern_rho10_nu0.7.baobzi');
+func_approx = baobzi('restore', 'matern_rho10_nu3.8.baobzi');
 func_approx.stats()
 display(func_approx.eval([0.25, 0.25]))
 
