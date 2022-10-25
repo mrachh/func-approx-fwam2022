@@ -3,7 +3,7 @@ This repository contains demo codes for function approximation in one dimension.
 
 To download this repository including submodules (chebfun and baobzi)  run
 
-`git clone --recurse-submodules https://github.com/flatironinstitute/gp-shootout.git`
+`git clone --recurse-submodules https://github.com/mrachh/func-approx-fwam2022.git`
 
 Run startup.m to include chebfun in the MATLAB path
 
